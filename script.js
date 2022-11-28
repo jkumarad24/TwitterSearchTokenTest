@@ -12,6 +12,8 @@
  *  Capabilities to the search. Add bookmarks search token. Figure out how to load search results without refreshing page.
  */
 
+//Learning on 28-11-2022
+
 //main search mod object
 const search = {
   default: `<div class="list-item css-18t94o4 css-1dbjc4n r-1ny4l3l r-ymttw5 r-1f1sjgu"><div class="tokens r-b88u0q css-901oao">Gimme Some Letters...</div></div>`,
