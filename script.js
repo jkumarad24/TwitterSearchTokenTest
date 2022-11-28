@@ -61,13 +61,13 @@ const search = {
       q: (v) => `"${v.substring(1)}"`,
       searchMethod: "",
     }, // This token below totally works! Uncomment to check it out:
-    // {
-    //   t: "time:",
-    //   pre: " ",
-    //   type: "time",
-    //   q: (v) => `"${v}"`,
-    //   searchMethod: "",
-    // },
+    {
+      t: "time:",
+      pre: " ",
+      type: "time",
+      q: (v) => `"${v}"`,
+      searchMethod: "",
+    },
   ],
 
   //set up helper functions
